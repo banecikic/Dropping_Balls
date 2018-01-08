@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  root 'application#hello'
+
+  get 'box/index'
+  get 'box/home'
+  root 'application#index'
 end
