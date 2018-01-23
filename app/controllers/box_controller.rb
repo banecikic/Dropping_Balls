@@ -40,7 +40,7 @@ class BoxController < ApplicationController
      end
 
      respond_to do |format|
-           format.html
+          
            format.json {
              render json: @ball.to_json
            }
